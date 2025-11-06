@@ -1,0 +1,39 @@
+{
+  "name": "lithuanian-radio-sdk",
+  "version": "1.0.0",
+  "description": "Production-ready TypeScript SDK for streaming Lithuanian radio stations in web applications. This package provides easy-to-use APIs for accessing and playing Lithuanian radio stations with full TypeScript support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "lithuania",
+    "radio",
+    "streaming",
+    "audio",
+    "music",
+    "player"
+  ],
+  "author": "Kasparas Mickevičius",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/termjs/lithuanian-radio-sdk.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.24",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint": "^9.15.0",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
